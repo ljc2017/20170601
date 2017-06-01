@@ -110,11 +110,13 @@ section{
     height: 155/$sc+rem;
     background: #f5f5f5;
     border-bottom: 1/$sc+rem solid #cfcfcf;
+    position: relative;
     a{
         display: -webkit-box;
         height: (155-31)/$sc+rem;
         padding: 16/$sc+rem;
-        margin-top: -54/$sc+rem;
+        position: absolute;
+        top: 0;
         img{
             width: 122/$sc+rem;
             height: 122/$sc+rem;
