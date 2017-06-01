@@ -94,6 +94,7 @@ section{
     margin-top:150/$sc+rem;
     height:(980-100+7)/$sc+rem;
     overflow: auto;
+    z-index: -999;
 }
 @media (min-width:360px){
     section{
